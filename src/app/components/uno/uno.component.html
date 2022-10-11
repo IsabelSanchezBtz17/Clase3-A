@@ -1,0 +1,42 @@
+<!--
+    
+<ng-container *ngIf="flag" >
+    <p >uno works!</p>
+</ng-container>
+
+<button id="b"> Click </button>
+
+<ng-container *ngFor="let pais of paises; let i= index;">
+    <span>Posición:
+        <p>{{i}}</p>
+    </span>
+    <span> id: 
+        <h1>{{pais.id}}</h1>
+    </span>
+    <span>
+        <h3>{{pais.nombre}}</h3>
+    </span>
+</ng-container>
+
+----Platillos tradicionales----
+
+<ng-container *ngFor="let item of platillos">
+   
+    <div [ngSwitch]="item.pais">
+        <span *ngSwitchCase="PAISES.MEXICO"> Platillo de Mexico -- {{item.platillo}} </span>
+        <span *ngSwitchCase="PAISES.PERU"> Platillo de Peru -- {{item.platillo}} </span>
+        <span *ngSwitchCase="PAISES.VENEZUELA"> Platillo de Venezuela -- {{item.platillo}}</span>
+        <p *ngSwitchDefault class="cerrar">Platillo no definido</p>  
+    </div>
+</ng-container>
+---Directivas propias
+<h1    [color] ="'#ABC'" [size]="'30px'" [fontStyle]="'arial' " [appDinamyColor]="'orange'" [SizeEnter]="'200px'"> Holaaa</h1>
+<h1    [color] ="'blue'" [size]="'50px'" [fontStyle]="'italic'" [appDinamyColor]="'green'" [SizeEnter]="'200px'"> Adios</h1>
+
+
+-->
+
+<h1 id="texto" #texto> Tacossss</h1>
+<h2 id="texto2" #texto2> Dorados</h2>
+
+
